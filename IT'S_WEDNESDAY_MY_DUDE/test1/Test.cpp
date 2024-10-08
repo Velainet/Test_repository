@@ -1,22 +1,32 @@
 #include <iostream>
-using namespace std; 
+
+using namespace std;
+ 
 int main()
 {
-    int (max);
-    cin >> (max);
-    int numbers[max];      
-  
-    int i;       
-    cout << "Enter numbers" << endl;
-    while(i < max)
-    {
-        cin >> numbers[i];   
-        i++;
+    for (int i=0 ; i==0 ; ){
+    int s,u;
+    cout << ("write the number: "), cin >> (s);
+    cout << ("write another number , but bigger: "), cin >> (u);
+        if (s < 0 , u < 0){
+            i = 1;
+        while ((s-1) < u){
+            cout << ("numbers....cool = ") << s << endl;
+            s=s-1;
+            s=0;
+           } 
+ }
+ else            
+        if (s != u){
+            i = 1;
+        while ((s-1) < u){
+            cout << ("numbers....cool = ") << s << endl;
+            ++s;           
+        }
+        s = 0;
+        } 
     }
-   
-    for (i =0; i < max; ++i)
-    {
-        cout << numbers[i] << "\t";
-    }
-    cout << endl;
 }
+
+
+    
